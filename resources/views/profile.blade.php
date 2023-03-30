@@ -48,11 +48,12 @@
                             </svg>
                         </span>
                     </div>
-                    <div class=" m-4 w-3/6">
-                        <h1 class="font-thin mb-5">Education</h1>
-                        <h1 class="font-bold mt-2 mb-2">Nadya Clarine Purba</h1>
-                        <h1 class="font-thin mt-2 mb-2">deskripsi dikit</h1>
-                        <a class="font-normal mt-4 mb-4">Read More</a>
+                    <div class=" m-4 w-3/6 pr-12 mt-16">
+                        <div class="font-thin text-peach bg-navy mb-2 w-fit p-2">Education</div>
+                        <h1 class="font-extrabold text-[4.5vw] mt-2 mb-2">Nadya Clarine Purba</h1>
+                        <h1 class="font-normal mt-2 mb-2">Selamat datang di landing page Nadya, seorang mahasiswa inspiratif! Halaman ini adalah tempat di mana Anda dapat mengenal lebih dekat tentang Nadya, seorang mahasiswa yang menginspirasi banyak orang melalui perjuangannya dalam meraih mimpi dan mencapai tujuan hidupnya.
+                            Di sini Anda akan menemukan konten-konten inspiratif yang mengulas tentang tips meraih sukses di dunia perkuliahan, kisah-kisah inspiratif, serta pengalaman-pengalaman berharga yang mungkin bisa menjadi referensi bagi Anda. Ayo, temukan inspirasi baru bersama Nadya!</h1>
+                        <a class="font-medium mt-4 mb-4" href="#biodata">Read More</a>
                     </div>
                     <div>
                     </div>
@@ -60,8 +61,17 @@
             </div>
 
             {{-- biodata --}}
-            <div id="biodata" class="h-96 bg-black ">
-                
+            <div id="biodata" class="h-auto bg-gradient-to-b from-white to-peach text-navy  pr-32 pl-32 pt-12 pb-32">
+                <h1 class="font-extrabold text-5xl text-peach text-center p-4">About Me</h1>
+                {{-- <p class="font-bold">"</p> --}}
+                <p class="font-medium text-center">Apa kabar teman-teman, saya adalah seorang mahasiswa IT semester 5 yang super semangat dan suka ngelucu. Sejauh ini, saya sudah melewati berbagai tantangan seperti tugas pemrograman yang menguras pikiran dan deadline yang ngeri-ngeri sedap, tapi tetap bisa melewatinya dengan selalu ngasih komentar kocak.</p>
+                <p class="font-medium text-center mt-2">
+                    Saya sangat suka belajar tentang hal-hal baru di bidang IT, mulai dari programming, networking, cybersecurity, hingga data science. Bahkan ketika saya sedang jenuh dengan tugas kuliah, saya masih bisa terhibur dengan video-video IT yang kocak di YouTube.
+                    Saya juga suka bergabung dengan organisasi dan komunitas baru di kampus. Sejak bergabung dengan komunitas programming, saya mendapat banyak peluang untuk mengasah keterampilan saya dan mendapat teman-teman baru yang seru. Tidak jarang kami juga membuat projek atau berpartisipasi dalam coding competition bersama-sama.
+                    Dan ketika saya mengikuti acara organisasi, saya selalu mencoba untuk memberikan sedikit keceriaan dengan selalu menambahkan komentar lucu di sela-sela diskusi. Walaupun saya memang suka bergurau, tapi saya tetap serius dalam mengikuti diskusi dan acara, karena saya percaya hal ini sangat penting untuk menambah wawasan dan jaringan saya di bidang IT.
+                </p>
+                <p class="font-medium text-center mt-2"> Jadi, itulah sedikit deskripsi tentang diri saya sebagai mahasiswa IT semester 5 yang penuh semangat, lucu dan senang bergabung dengan organisasi dan komunitas baru di kampus. Saya selalu mencoba untuk menikmati setiap momen di kampus dan terus belajar untuk mengasah keterampilan dan pengetahuan saya di bidang IT. Terima kasih sudah membaca!</p>
+                {{-- <p class="font-bold">"</p> --}}
             </div>
 
             {{-- skills --}}
