@@ -8,10 +8,10 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                peach: "#CE7777",
-                navy: "#2B3A55",
-                softPeach: "#E8C4C4",
-                cream: "#F2E5E5",
+                peach: "#eebbc3",
+                navy: "#232946",
+                lavenderGray: "#b8c1ec",
+                white: "#fffffe",
             },
         },
     },

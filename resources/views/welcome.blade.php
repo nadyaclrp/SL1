@@ -24,7 +24,6 @@
         </style>
     </head>
     <body class="antialiased">
-        <h1>Hello World</h1>
         {{-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -132,20 +131,6 @@
                 </div>
             </div>
         </div> --}}
-        <section id="profile" class="pt-0.5">
-            <div class="container m-auto flex justify-between bg-softPeach text-navy">
-                <div class="flex bg-softPeach ">
-                    <a>Education</a>
-                    <a>Reach</a>
-                </div>
-                <div class="flex flex-row justify-around ">
-                    <a class="">Biodata</a>
-                    <a>Skills</a>
-                    <a>Experiences</a>
-                    <a>Education</a>
-                    <a>Reach</a>
-                </div>
-            </div>
-        </section>
+        
     </body>
 </html>
