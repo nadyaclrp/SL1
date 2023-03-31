@@ -40,8 +40,10 @@
 
                 <div class="flex p-1 justify-between w-full">
                     {{-- <div class="w-3/6 p-2 m-2 bg-black  bg-fixed" style="background-image: url('nadya.jpg')"></div> --}}
-                    <div class="m-4 w-3/6 h-screen relative border-green-600">
-                        <div class="flex absolute mx-auto w-full h-full -bottom-0"><img class="fw-5/6 h-5/6 mr-auto ml-auto mt-auto mb-0" src="{{('nadyaRemove.png')}}"></div>
+                    <div class="m-4 w-3/6 h-screen relative ">
+                        <div class="flex absolute mx-auto w-full h-full -bottom-0">
+                            <img class="fw-5/6 h-5/6 mr-auto ml-auto mt-auto mb-0" src="{{('nadyaRemove.png')}}">
+                        </div>
                         <span class="-z-5">
                             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#EEBBC3" d="M41.6,-70.4C51.5,-58.3,55.6,-42.8,56.4,-29.2C57.2,-15.6,54.8,-4.1,56.3,10.4C57.8,24.8,63.1,42.1,59,56.4C54.8,70.8,41.2,82.4,25.6,86.6C10.1,90.9,-7.4,87.8,-20.4,79.5C-33.5,71.2,-42,57.5,-48,44.8C-54,32.2,-57.5,20.5,-61.8,7.3C-66.1,-5.8,-71.3,-20.4,-65.8,-29C-60.2,-37.6,-43.9,-40.2,-31.1,-51C-18.4,-61.9,-9.2,-80.9,3.3,-86C15.8,-91.2,31.7,-82.5,41.6,-70.4Z" transform="translate(100 100)" />
@@ -155,7 +157,7 @@
             </div>
 
             {{-- education --}}
-            <div id="education" class="h-fit bg-gradient-to-b from-white to-lavenderGray">
+            <div id="education" class="h-fit bg-gradient-to-b from-white to-navy">
                 {{-- Academic history --}}
                 <div class="flex flex-row p-12">
                     <div class="w-5/6 flex flex-row">
@@ -289,10 +291,44 @@
             </div>
 
             {{-- reach --}}
-            <div id="reach" class="h-96 bg-green-500 ">
-                
+            <div id="reach" class="h-fit bg-navy flex flex-row" >
+                <div class="m-4 p-2 w-fit h-fit my-auto -bottom-0 bg-peach">
+                    <img class="p-2 w-28 h-28 rounded-xl" src="{{('noleh.jpg')}}">
+                </div>
+                <div>
+                    <table class="text-peach">
+                        <tr>
+                            <th>Contact Me</th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#eebbc3" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44z"/>
+                            </svg>
+                          </td>
+                          <td> 
+                            <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJNsMGsHxDttDKgqkXczrpvNJjbVkfMWrwjXVSLLpRGTvwWDkpvXPvKdtfSsXHCKJZzrPmg">nadya.purba@binus.ac.id</a>
+                        </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><path fill="#eebbc3" fill-rule="evenodd" d="M16 2a14 14 0 0 0-4.43 27.28c.7.13 1-.3 1-.67v-2.38c-3.89.84-4.71-1.88-4.71-1.88a3.71 3.71 0 0 0-1.62-2.05c-1.27-.86.1-.85.1-.85a2.94 2.94 0 0 1 2.14 1.45a3 3 0 0 0 4.08 1.16a2.93 2.93 0 0 1 .88-1.87c-3.1-.36-6.37-1.56-6.37-6.92a5.4 5.4 0 0 1 1.44-3.76a5 5 0 0 1 .14-3.7s1.17-.38 3.85 1.43a13.3 13.3 0 0 1 7 0c2.67-1.81 3.84-1.43 3.84-1.43a5 5 0 0 1 .14 3.7a5.4 5.4 0 0 1 1.44 3.76c0 5.38-3.27 6.56-6.39 6.91a3.33 3.33 0 0 1 .95 2.59v3.84c0 .46.25.81 1 .67A14 14 0 0 0 16 2Z"/></svg>
+                          </td>
+                          <td>
+                            <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJNsMGsHxDttDKgqkXczrpvNJjbVkfMWrwjXVSLLpRGTvwWDkpvXPvKdtfSsXHCKJZzrPmg">
+                                nadyaclarp
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#eebbc3" d="M12 8.75a3.25 3.25 0 1 0 0 6.5a3.25 3.25 0 0 0 0-6.5Z"/><path fill="#eebbc3" fill-rule="evenodd" d="M6.77 3.082a47.472 47.472 0 0 1 10.46 0c1.899.212 3.43 1.707 3.653 3.613a45.67 45.67 0 0 1 0 10.61c-.223 1.906-1.754 3.401-3.652 3.614a47.468 47.468 0 0 1-10.461 0c-1.899-.213-3.43-1.708-3.653-3.613a45.672 45.672 0 0 1 0-10.611C3.34 4.789 4.871 3.294 6.77 3.082ZM17 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2Zm-9.75 6a4.75 4.75 0 1 1 9.5 0a4.75 4.75 0 0 1-9.5 0Z" clip-rule="evenodd"/></svg>
+                          </td>
+                          <td>nadyaclrp</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-
-        </section>
+            
+    </section>
 </body>
 </html>
