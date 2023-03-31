@@ -53,7 +53,7 @@
                         <h1 class="font-extrabold text-[4.5vw] mt-2 mb-2">Nadya Clarine Purba</h1>
                         <h1 class="font-normal mt-2 mb-2">Selamat datang di landing page Nadya, seorang mahasiswa inspiratif! Halaman ini adalah tempat di mana Anda dapat mengenal lebih dekat tentang Nadya, seorang mahasiswa yang menginspirasi banyak orang melalui perjuangannya dalam meraih mimpi dan mencapai tujuan hidupnya.
                             Di sini Anda akan menemukan konten-konten inspiratif yang mengulas tentang tips meraih sukses di dunia perkuliahan, kisah-kisah inspiratif, serta pengalaman-pengalaman berharga yang mungkin bisa menjadi referensi bagi Anda. Ayo, temukan inspirasi baru bersama Nadya!</h1>
-                        <a class="font-medium mt-4 mb-4 " href="#biodata">Read More</a>
+                        <a class="font-medium mt-4 mb-4 hover:underline" href="#biodata">Read More</a>
                     </div>
                     <div>
                     </div>
@@ -112,8 +112,8 @@
             
 
             {{-- experiences --}}
-            <div id="experiences" class=" bg-gradient-to-b from-lavenderGray to-white justify-center w-screen h-screen">
-                <h1 class="font-extrabold text-5xl text-navy text-center p-12">Collab Project</h1>
+            <div id="experiences" class=" h-screen bg-gradient-to-b from-lavenderGray to-white justify-center">
+                <h1 class="font-extrabold text-5xl text-navy text-center p-16">Collab Project</h1>
                 <div class="flex flex-row justify-center mb-8 mt-8">
                     <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
                         <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('https://img.freepik.com/free-photo/closeup-hand-using-pen-mouse-working-with-computer-wooden-table_53876-30173.jpg?w=740&t=st=1680240005~exp=1680240605~hmac=6c562b49ed56abb6c5a4b6648cbd02cde3c4562b432f34f1aef1f9b5f8575183')" ></div>
@@ -155,8 +155,87 @@
             </div>
 
             {{-- education --}}
-            <div id="education" class="h-96 bg-slate-600">
-                
+            <div id="education" class="bg-white h-fit">
+                <div class="flex flex-row">
+                    <div class="w-5/6 flex-col">
+                        {{-- <div class="bg-lavenderGray clip-path: polygon(0 25%, 50% 0, 100% 25%)">dsd</div> --}}
+                        <svg class="border-yellow-400" fill="#b8c1ec" height="173px" width="173px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.013 483.013" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M477.043,219.205L378.575,48.677c-7.974-13.802-22.683-22.292-38.607-22.292H143.041c-15.923,0-30.628,8.49-38.608,22.292 L5.971,219.205c-7.961,13.801-7.961,30.785,0,44.588l98.462,170.543c7.98,13.802,22.685,22.293,38.608,22.293h196.926 c15.925,0,30.634-8.491,38.607-22.293l98.469-170.543C485.003,249.99,485.003,233.006,477.043,219.205z"></path> </g></svg>
+                    </div>
+                    <h1 class="font-extrabold text-5xl text-navy text-center p-16">Academic History</h1>
+                </div>
+                <div class="flex-row h-fit flex justify-center">
+                    <h1 class="font-extrabold text-5xl text-navy text-center p-16 m-auto">Achievement</h1>
+                    <div class="flex flex-row h-fit">
+                        <div class="mt-48 w-24 mr-2 ml-2 items-center">
+                            <h1 class="text-center text-navy font-semibold text-sm">Semifinalist of Provincial Level Mathematics Competition</h1>
+                            <h1 class="text-center text-navy font-normal mb-2 text-sm">Sumatera Barat</h1>
+                            <div class="bg-[#E18A8A] rounded-full p-8 text-center font-semibold text-navy">2014</div>
+                            <svg class="-mb-0 h-fit m-auto" width="10" height="400" viewBox="0 0 10 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="400" fill="#E18A8A"/>
+                            </svg>
+                        </div>
+                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                            <h1 class="text-center text-navy font-semibold text-sm">1st Place in City Level Environmental Knowledge Competition</h1>
+                            <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
+                            <div class="bg-[#968AE1] rounded-full p-8 text-center font-semibold text-navy">2016</div>
+                            <svg class=" h-fit m-auto" width="10" height="420" viewBox="0 0 10 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="420" fill="#968AE1"/>
+                                </svg>
+                                
+                        </div>
+                        <div class=" mt-48 w-24 mr-2 ml-2 items-center">
+                            <h1 class="text-center text-navy font-semibold text-sm">Rank 2 Indonesian Language Debate at City Level</h1>
+                            <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
+                            <div class="bg-[#968AE1] rounded-full p-8 text-center font-semibold text-navy">2016</div>
+                            <svg class=" h-fit m-auto" width="10" height="420" viewBox="0 0 10 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="420" fill="#968AE1"/>
+                            </svg>   
+                        </div>
+                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                            <h1 class="text-center text-navy font-semibold text-sm">Rank 3 Bible Savvy at City Level</h1>
+                            <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
+                            <div class="bg-[#21D4D4] rounded-full p-8 text-center font-semibold text-navy">2017</div>
+                            <svg class=" h-fit m-auto" width="10" height="460" viewBox="0 0 10 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="460" fill="#21D4D4"/>
+                            </svg>
+                                   
+                        </div>
+                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                            <h1 class="text-center text-navy font-semibold text-sm">Rank 4 Math Olympiad at City Level</h1>
+                            <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
+                            <div class="bg-[#59B15D] rounded-full p-8 text-center font-semibold text-navy">2018</div>
+                            <svg class=" h-fit m-auto" width="10" height="460" viewBox="0 0 10 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="460" fill="#59B15D"/>
+                                </svg>
+                                
+                                   
+                        </div>
+                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                            <h1 class="text-center text-navy font-semibold text-sm">Rank 5 Computer Olympiad at City Level</h1>
+                            <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
+                            <div class="bg-[#D3CB1E] rounded-full p-8 text-center font-semibold text-navy">2020</div>
+                            <svg class=" h-fit m-auto" width="10" height="440" viewBox="0 0 10 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="440" fill="#B1AD59"/>
+                            </svg>                                   
+                        </div>
+                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                            <h1 class="text-center text-navy font-semibold text-sm">Rank 4 3x3 Basketball Tournament at City Level</h1>
+                            <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
+                            <div class="bg-[#D3CB1E] rounded-full p-8 text-center font-semibold text-navy">2020</div>
+                            <svg class=" h-fit m-auto" width="10" height="440" viewBox="0 0 10 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="440" fill="#B1AD59"/>
+                            </svg>    
+                        </div>
+                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                            <h1 class="text-center text-navy font-semibold text-sm">Top 12 Ideas YNFEST PPA/PPTI</h1>
+                            <h1 class="text-center text-navy font-normal mb-2 text-sm">Bogor</h1>
+                            <div class="bg-[#D441AB] rounded-full p-8 text-center font-semibold text-navy">2023</div>
+                            <svg class=" h-fit m-auto" width="10" height="460" viewBox="0 0 10 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="460" fill="#D441AB"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             {{-- reach --}}
