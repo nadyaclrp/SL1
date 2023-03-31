@@ -112,12 +112,50 @@
             
 
             {{-- experiences --}}
-            <div id="experiences" class="h-96 bg-amber-700 ">
-                
+            <div id="experiences" class=" bg-gradient-to-b from-lavenderGray to-white justify-center w-screen h-screen">
+                <h1 class="font-extrabold text-5xl text-navy text-center p-12">Collab Project</h1>
+                <div class="flex flex-row justify-center mb-8 mt-8">
+                    <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
+                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('https://img.freepik.com/free-photo/closeup-hand-using-pen-mouse-working-with-computer-wooden-table_53876-30173.jpg?w=740&t=st=1680240005~exp=1680240605~hmac=6c562b49ed56abb6c5a4b6648cbd02cde3c4562b432f34f1aef1f9b5f8575183')" ></div>
+                        <div class="mt-4 text-white hover:text-peach">
+                            <h1 class="font-thin text-xs">Application</h1>
+                            <h1 class="font-semibold">Fugemy</h1>
+                            <h1 class="font-thin text-xs mt-3">Description</h1>
+                            <h1 class="font-semibold">Education Application</h1>
+                        </div>
+                    </div>
+                    <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
+                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('https://img.freepik.com/free-photo/woman-scanning-qr-code-pay-bills_329181-4280.jpg?w=900&t=st=1680247470~exp=1680248070~hmac=6b56cb45769b2214f3d701cc71cfdcf51df2a0223ce6057e0ec279622d7b7b25')" ></div>
+                        <div class="mt-4 text-white hover:text-peach">
+                            <h1 class="font-thin text-xs">Application</h1>
+                            <h1 class="font-semibold">Foundly</h1>
+                            <h1 class="font-thin text-xs mt-3">Description</h1>
+                            <h1 class="font-semibold">Object Recognition</h1>
+                        </div>
+                    </div>
+                    <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
+                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('https://img.freepik.com/free-photo/top-view-office-desk-with-growth-chart-hands-using-calculator_23-2148780626.jpg?w=900&t=st=1680247876~exp=1680248476~hmac=db492b7f36058f774ae8e3f00e97f23aaaf75d2348f25071f05352098b9827c8')" ></div>
+                        <div class="mt-4 text-white hover:text-peach">
+                            <h1 class="font-thin text-xs">Application</h1>
+                            <h1 class="font-semibold">PoorBye</h1>
+                            <h1 class="font-thin text-xs mt-3">Description</h1>
+                            <h1 class="font-semibold">Financial Application</h1>
+                        </div>
+                    </div>
+                    <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
+                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('https://img.freepik.com/premium-photo/nurse-holding-virtual-screen_13339-70952.jpg?w=826')" ></div>
+                        <div class="mt-4 text-white hover:text-peach">
+                            <h1 class="font-thin text-xs">Application</h1>
+                            <h1 class="font-semibold">Heart Prediction</h1>
+                            <h1 class="font-thin text-xs mt-3">Description</h1>
+                            <h1 class="font-semibold">Machine Learning</h1>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             {{-- education --}}
-            <div id="education" class="h-96 bg-slate-600 ">
+            <div id="education" class="h-96 bg-slate-600">
                 
             </div>
 
