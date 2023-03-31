@@ -155,83 +155,133 @@
             </div>
 
             {{-- education --}}
-            <div id="education" class="bg-white h-fit">
-                <div class="flex flex-row">
-                    <div class="w-5/6 flex-col">
-                        {{-- <div class="bg-lavenderGray clip-path: polygon(0 25%, 50% 0, 100% 25%)">dsd</div> --}}
-                        <svg class="border-yellow-400" fill="#b8c1ec" height="173px" width="173px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.013 483.013" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M477.043,219.205L378.575,48.677c-7.974-13.802-22.683-22.292-38.607-22.292H143.041c-15.923,0-30.628,8.49-38.608,22.292 L5.971,219.205c-7.961,13.801-7.961,30.785,0,44.588l98.462,170.543c7.98,13.802,22.685,22.293,38.608,22.293h196.926 c15.925,0,30.634-8.491,38.607-22.293l98.469-170.543C485.003,249.99,485.003,233.006,477.043,219.205z"></path> </g></svg>
+            <div id="education" class="h-fit bg-gradient-to-b from-white to-lavenderGray">
+                {{-- Academic history --}}
+                <div class="flex flex-row p-12">
+                    <div class="w-5/6 flex flex-row">
+                        <div>
+                            <div class="mt-28 flex flex-row">
+                                <svg class="" fill="#b8c1ec" height="173px" width="173px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.013 483.013" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M477.043,219.205L378.575,48.677c-7.974-13.802-22.683-22.292-38.607-22.292H143.041c-15.923,0-30.628,8.49-38.608,22.292 L5.971,219.205c-7.961,13.801-7.961,30.785,0,44.588l98.462,170.543c7.98,13.802,22.685,22.293,38.608,22.293h196.926 c15.925,0,30.634-8.491,38.607-22.293l98.469-170.543C485.003,249.99,485.003,233.006,477.043,219.205z"></path> </g>
+                                </svg>
+                                <div class="flex-col ml-1 my-auto">
+                                    <h1 class="text-navy font-bold text-3xl -ml-[7.2vw] mt-5 ">2008</h1>
+                                    <h1 class="text-lavenderGray font-bold text-2xl -mt-12 ">TK</h1>
+                                    <h1 class="text-navy text-l -mt-2">Kuntum Mekar, Bukittingi</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" flex-col -ml-16">
+                            <div class="flex flex-row">
+                                <svg class="" fill="#b8c1ec" height="173px" width="173px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.013 483.013" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M477.043,219.205L378.575,48.677c-7.974-13.802-22.683-22.292-38.607-22.292H143.041c-15.923,0-30.628,8.49-38.608,22.292 L5.971,219.205c-7.961,13.801-7.961,30.785,0,44.588l98.462,170.543c7.98,13.802,22.685,22.293,38.608,22.293h196.926 c15.925,0,30.634-8.491,38.607-22.293l98.469-170.543C485.003,249.99,485.003,233.006,477.043,219.205z"></path> </g>
+                                </svg>
+                                <div class="flex-col ml-1 my-auto">
+                                    <h1 class="text-navy font-bold text-4xl -ml-[9.7vw] mt-3">2009</h1>
+                                    <h1 class="text-lavenderGray font-bold text-2xl -mt-10">SD</h1>
+                                    <h1 class="text-navy text-l -mt-2">Fransiskus, Bukittingi</h1>
+                                </div>
+
+                            </div>
+                            <div class="-mt-12 ml-32 flex flex-row">
+                                <svg class="" fill="#b8c1ec" height="173px" width="173px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.013 483.013" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M477.043,219.205L378.575,48.677c-7.974-13.802-22.683-22.292-38.607-22.292H143.041c-15.923,0-30.628,8.49-38.608,22.292 L5.971,219.205c-7.961,13.801-7.961,30.785,0,44.588l98.462,170.543c7.98,13.802,22.685,22.293,38.608,22.293h196.926 c15.925,0,30.634-8.491,38.607-22.293l98.469-170.543C485.003,249.99,485.003,233.006,477.043,219.205z"></path> </g></svg>
+                                <div class="flex-col ml-1 my-auto">
+                                    <h1 class="text-navy font-bold text-4xl -ml-[9.6vw] ">2015</h1>
+                                    <h1 class="text-lavenderGray font-bold text-2xl -mt-11">SMP</h1>
+                                    <h1 class="text-navy text-l -mt-2">Fatima 2, Sibolga</h1>
+                                </div>
+                            </div>
+                            <div class="-mt-12 flex flex-row ml-64" >
+                                <svg fill="#b8c1ec" height="173px" width="173px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.013 483.013" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M477.043,219.205L378.575,48.677c-7.974-13.802-22.683-22.292-38.607-22.292H143.041c-15.923,0-30.628,8.49-38.608,22.292 L5.971,219.205c-7.961,13.801-7.961,30.785,0,44.588l98.462,170.543c7.98,13.802,22.685,22.293,38.608,22.293h196.926 c15.925,0,30.634-8.491,38.607-22.293l98.469-170.543C485.003,249.99,485.003,233.006,477.043,219.205z"></path> </g></svg>
+                                <div class="flex-col ml-1 my-auto">
+                                    <h1 class="text-navy font-bold text-4xl -ml-[8.3vw] mt-4">2018</h1>
+                                    <h1 class="text-lavenderGray font-bold text-2xl -mt-12">SMA</h1>
+                                    <h1 class="text-navy text-l -mt-2">SMAN 3, Sibolga</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mt-28 -ml-18 flex flex-row">
+                                <svg class="" fill="#b8c1ec" height="173px" width="173px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.013 483.013" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M477.043,219.205L378.575,48.677c-7.974-13.802-22.683-22.292-38.607-22.292H143.041c-15.923,0-30.628,8.49-38.608,22.292 L5.971,219.205c-7.961,13.801-7.961,30.785,0,44.588l98.462,170.543c7.98,13.802,22.685,22.293,38.608,22.293h196.926 c15.925,0,30.634-8.491,38.607-22.293l98.469-170.543C485.003,249.99,485.003,233.006,477.043,219.205z"></path> </g>
+                                </svg>
+                                <div class="flex-col ml-1 my-auto">
+                                    <h1 class="text-navy font-bold text-3xl -ml-[7.2vw] mt-6">2021</h1>
+                                    <h1 class="text-lavenderGray font-bold text-2xl -mt-12">College</h1>
+                                    <h1 class="text-navy text-l -mt-2">Binus University X PPTI BCA</h1>
+                                </div>
+                            </div>
+                        </div>    
                     </div>
-                    <h1 class="font-extrabold text-5xl text-navy text-center p-16">Academic History</h1>
+                    <h1 class="font-extrabold text-5xl text-navy text-center p-16 m-auto">Academic History</h1>
                 </div>
-                <div class="flex-row h-fit flex justify-center">
+                {{-- Achievement --}}
+                <div class="flex-row h-fit flex justify-center mr-20 ml-4">
                     <h1 class="font-extrabold text-5xl text-navy text-center p-16 m-auto">Achievement</h1>
                     <div class="flex flex-row h-fit">
-                        <div class="mt-48 w-24 mr-2 ml-2 items-center">
+                        <div class="mt-24 w-24 mr-2 ml-2 items-center">
                             <h1 class="text-center text-navy font-semibold text-sm">Semifinalist of Provincial Level Mathematics Competition</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sumatera Barat</h1>
                             <div class="bg-[#E18A8A] rounded-full p-8 text-center font-semibold text-navy">2014</div>
-                            <svg class="-mb-0 h-fit m-auto" width="10" height="400" viewBox="0 0 10 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="400" fill="#E18A8A"/>
+                            <svg class="-mb-0 h-fit m-auto" width="10" height="350" viewBox="0 0 10 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="350" fill="#E18A8A"/>
                             </svg>
                         </div>
-                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                        <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">1st Place in City Level Environmental Knowledge Competition</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#968AE1] rounded-full p-8 text-center font-semibold text-navy">2016</div>
-                            <svg class=" h-fit m-auto" width="10" height="420" viewBox="0 0 10 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="420" fill="#968AE1"/>
+                            <svg class=" h-fit m-auto" width="10" height="370" viewBox="0 0 10 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="370" fill="#968AE1"/>
                                 </svg>
                                 
                         </div>
-                        <div class=" mt-48 w-24 mr-2 ml-2 items-center">
+                        <div class=" mt-24 w-24 mr-2 ml-2 items-center">
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 2 Indonesian Language Debate at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#968AE1] rounded-full p-8 text-center font-semibold text-navy">2016</div>
-                            <svg class=" h-fit m-auto" width="10" height="420" viewBox="0 0 10 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="420" fill="#968AE1"/>
+                            <svg class=" h-fit m-auto" width="10" height="370" viewBox="0 0 10 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="370" fill="#968AE1"/>
                             </svg>   
                         </div>
-                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                        <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 3 Bible Savvy at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#21D4D4] rounded-full p-8 text-center font-semibold text-navy">2017</div>
-                            <svg class=" h-fit m-auto" width="10" height="460" viewBox="0 0 10 460" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="460" fill="#21D4D4"/>
+                            <svg class=" h-fit m-auto" width="10" height="410" viewBox="0 0 10 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="410" fill="#21D4D4"/>
                             </svg>
                                    
                         </div>
-                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                        <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 4 Math Olympiad at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#59B15D] rounded-full p-8 text-center font-semibold text-navy">2018</div>
-                            <svg class=" h-fit m-auto" width="10" height="460" viewBox="0 0 10 460" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="460" fill="#59B15D"/>
+                            <svg class=" h-fit m-auto" width="10" height="410" viewBox="0 0 10 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="410" fill="#59B15D"/>
                                 </svg>
                                 
                                    
                         </div>
-                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                        <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 5 Computer Olympiad at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#D3CB1E] rounded-full p-8 text-center font-semibold text-navy">2020</div>
-                            <svg class=" h-fit m-auto" width="10" height="440" viewBox="0 0 10 440" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="440" fill="#B1AD59"/>
+                            <svg class=" h-fit m-auto" width="10" height="390" viewBox="0 0 10 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="390" fill="#B1AD59"/>
                             </svg>                                   
                         </div>
-                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                        <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 4 3x3 Basketball Tournament at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#D3CB1E] rounded-full p-8 text-center font-semibold text-navy">2020</div>
-                            <svg class=" h-fit m-auto" width="10" height="440" viewBox="0 0 10 440" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="440" fill="#B1AD59"/>
+                            <svg class=" h-fit m-auto" width="10" height="390" viewBox="0 0 10 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="390" fill="#B1AD59"/>
                             </svg>    
                         </div>
-                        <div class=" mt-48 w-24 mr-2 ml-2 items-center ">
+                        <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">Top 12 Ideas YNFEST PPA/PPTI</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Bogor</h1>
                             <div class="bg-[#D441AB] rounded-full p-8 text-center font-semibold text-navy">2023</div>
-                            <svg class=" h-fit m-auto" width="10" height="460" viewBox="0 0 10 460" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="460" fill="#D441AB"/>
+                            <svg class=" h-fit m-auto" width="10" height="410" viewBox="0 0 10 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="410" fill="#D441AB"/>
                             </svg>
                         </div>
                     </div>
