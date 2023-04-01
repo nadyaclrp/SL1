@@ -157,7 +157,8 @@
             </div>
 
             {{-- education --}}
-            <div id="education" class="h-fit bg-gradient-to-b from-white to-navy">
+            {{-- <div id="education" class="h-fit bg-gradient-to-b from-white to-navy"> --}}
+            <div id="education" class="h-fit bg-white ">
                 {{-- Academic history --}}
                 <div class="flex flex-row p-12">
                     <div class="w-5/6 flex flex-row">
@@ -222,16 +223,16 @@
                             <h1 class="text-center text-navy font-semibold text-sm">Semifinalist of Provincial Level Mathematics Competition</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sumatera Barat</h1>
                             <div class="bg-[#E18A8A] rounded-full p-8 text-center font-semibold text-navy">2014</div>
-                            <svg class="-mb-0 h-fit m-auto" width="10" height="350" viewBox="0 0 10 350" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="350" fill="#E18A8A"/>
+                            <svg class="-mb-0 h-fit m-auto" width="10" height="300" viewBox="0 0 10 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="300" fill="#E18A8A"/>
                             </svg>
                         </div>
                         <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">1st Place in City Level Environmental Knowledge Competition</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#968AE1] rounded-full p-8 text-center font-semibold text-navy">2016</div>
-                            <svg class=" h-fit m-auto" width="10" height="370" viewBox="0 0 10 370" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="370" fill="#968AE1"/>
+                            <svg class=" h-fit m-auto" width="10" height="320" viewBox="0 0 10 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="320" fill="#968AE1"/>
                                 </svg>
                                 
                         </div>
@@ -239,16 +240,16 @@
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 2 Indonesian Language Debate at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#968AE1] rounded-full p-8 text-center font-semibold text-navy">2016</div>
-                            <svg class=" h-fit m-auto" width="10" height="370" viewBox="0 0 10 370" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="370" fill="#968AE1"/>
+                            <svg class=" h-fit m-auto" width="10" height="320" viewBox="0 0 10 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="320" fill="#968AE1"/>
                             </svg>   
                         </div>
                         <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 3 Bible Savvy at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#21D4D4] rounded-full p-8 text-center font-semibold text-navy">2017</div>
-                            <svg class=" h-fit m-auto" width="10" height="410" viewBox="0 0 10 410" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="410" fill="#21D4D4"/>
+                            <svg class=" h-fit m-auto" width="10" height="360" viewBox="0 0 10 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="360" fill="#21D4D4"/>
                             </svg>
                                    
                         </div>
@@ -256,8 +257,8 @@
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 4 Math Olympiad at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#59B15D] rounded-full p-8 text-center font-semibold text-navy">2018</div>
-                            <svg class=" h-fit m-auto" width="10" height="410" viewBox="0 0 10 410" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="410" fill="#59B15D"/>
+                            <svg class=" h-fit m-auto" width="10" height="360" viewBox="0 0 10 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="360" fill="#59B15D"/>
                                 </svg>
                                 
                                    
@@ -266,24 +267,24 @@
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 5 Computer Olympiad at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#D3CB1E] rounded-full p-8 text-center font-semibold text-navy">2020</div>
-                            <svg class=" h-fit m-auto" width="10" height="390" viewBox="0 0 10 390" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="390" fill="#B1AD59"/>
+                            <svg class=" h-fit m-auto" width="10" height="340" viewBox="0 0 10 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="340" fill="#B1AD59"/>
                             </svg>                                   
                         </div>
                         <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">Rank 4 3x3 Basketball Tournament at City Level</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Sibolga</h1>
                             <div class="bg-[#D3CB1E] rounded-full p-8 text-center font-semibold text-navy">2020</div>
-                            <svg class=" h-fit m-auto" width="10" height="390" viewBox="0 0 10 390" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="390" fill="#B1AD59"/>
+                            <svg class=" h-fit m-auto" width="10" height="340" viewBox="0 0 10 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="340" fill="#B1AD59"/>
                             </svg>    
                         </div>
                         <div class=" mt-24 w-24 mr-2 ml-2 items-center ">
                             <h1 class="text-center text-navy font-semibold text-sm">Top 12 Ideas YNFEST PPA/PPTI</h1>
                             <h1 class="text-center text-navy font-normal mb-2 text-sm">Bogor</h1>
                             <div class="bg-[#D441AB] rounded-full p-8 text-center font-semibold text-navy">2023</div>
-                            <svg class=" h-fit m-auto" width="10" height="410" viewBox="0 0 10 410" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="10" height="410" fill="#D441AB"/>
+                            <svg class=" h-fit m-auto" width="10" height="360" viewBox="0 0 10 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="10" height="360" fill="#D441AB"/>
                             </svg>
                         </div>
                     </div>
@@ -291,41 +292,107 @@
             </div>
 
             {{-- reach --}}
-            <div id="reach" class="h-fit bg-navy flex flex-row" >
-                <div class="m-4 p-2 w-fit h-fit my-auto -bottom-0 bg-peach">
-                    <img class="p-2 w-28 h-28 rounded-xl" src="{{('noleh.jpg')}}">
+            <div id="reach" class="h-fit bg-navy flex flex-row pt-1 pb-1" >
+                <div class="flex flex-row m-8 p-1 w-1/6 h-fit my-auto -bottom-0 bg-peach">
+                    <img class=" w-28 h-28 rounded-l" src="{{('senyum.jpg')}}">
+                    <img class=" ml-1 w-28 h-28 rounded-l" src="{{('senyum.jpg')}}">
                 </div>
-                <div>
-                    <table class="text-peach">
-                        <tr>
-                            <th>Contact Me</th>
-                        </tr>
-                        <tr>
-                          <td>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#eebbc3" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44z"/>
-                            </svg>
-                          </td>
-                          <td> 
-                            <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJNsMGsHxDttDKgqkXczrpvNJjbVkfMWrwjXVSLLpRGTvwWDkpvXPvKdtfSsXHCKJZzrPmg">nadya.purba@binus.ac.id</a>
-                        </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><path fill="#eebbc3" fill-rule="evenodd" d="M16 2a14 14 0 0 0-4.43 27.28c.7.13 1-.3 1-.67v-2.38c-3.89.84-4.71-1.88-4.71-1.88a3.71 3.71 0 0 0-1.62-2.05c-1.27-.86.1-.85.1-.85a2.94 2.94 0 0 1 2.14 1.45a3 3 0 0 0 4.08 1.16a2.93 2.93 0 0 1 .88-1.87c-3.1-.36-6.37-1.56-6.37-6.92a5.4 5.4 0 0 1 1.44-3.76a5 5 0 0 1 .14-3.7s1.17-.38 3.85 1.43a13.3 13.3 0 0 1 7 0c2.67-1.81 3.84-1.43 3.84-1.43a5 5 0 0 1 .14 3.7a5.4 5.4 0 0 1 1.44 3.76c0 5.38-3.27 6.56-6.39 6.91a3.33 3.33 0 0 1 .95 2.59v3.84c0 .46.25.81 1 .67A14 14 0 0 0 16 2Z"/></svg>
-                          </td>
-                          <td>
-                            <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJNsMGsHxDttDKgqkXczrpvNJjbVkfMWrwjXVSLLpRGTvwWDkpvXPvKdtfSsXHCKJZzrPmg">
-                                nadyaclarp
+                <div class="flex flex-col w-5/6">
+                    <div class="flex flex-row">
+                        <div>
+                            <table class="text-peach text-left">
+                                <tr>
+                                    <th class="font-normal">Let's</th>
+                                    <th class="text-xl pl-2"> discuss on something cool together!</th>
+                                </tr>
+                                <tr>
+                                <td >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#eebbc3" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44z"/>
+                                    </svg>
+                                </td>
+                                <td> 
+                                    <a class="font-thin" href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJNsMGsHxDttDKgqkXczrpvNJjbVkfMWrwjXVSLLpRGTvwWDkpvXPvKdtfSsXHCKJZzrPmg">nadya.purba@binus.ac.id</a>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><path fill="#eebbc3" fill-rule="evenodd" d="M16 2a14 14 0 0 0-4.43 27.28c.7.13 1-.3 1-.67v-2.38c-3.89.84-4.71-1.88-4.71-1.88a3.71 3.71 0 0 0-1.62-2.05c-1.27-.86.1-.85.1-.85a2.94 2.94 0 0 1 2.14 1.45a3 3 0 0 0 4.08 1.16a2.93 2.93 0 0 1 .88-1.87c-3.1-.36-6.37-1.56-6.37-6.92a5.4 5.4 0 0 1 1.44-3.76a5 5 0 0 1 .14-3.7s1.17-.38 3.85 1.43a13.3 13.3 0 0 1 7 0c2.67-1.81 3.84-1.43 3.84-1.43a5 5 0 0 1 .14 3.7a5.4 5.4 0 0 1 1.44 3.76c0 5.38-3.27 6.56-6.39 6.91a3.33 3.33 0 0 1 .95 2.59v3.84c0 .46.25.81 1 .67A14 14 0 0 0 16 2Z"/></svg>
+                                </td>
+                                <td>
+                                    <a class="font-thin" href="https://github.com/nadyaclrp">
+                                        nadyaclrp
+                                    </a>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#eebbc3" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                                 </td>
+                                <td>
+                                    <a class="font-thin" href="https://github.com/nadyaclrp">
+                                    +628123456789
+                                    </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="pl-14">
+                            <table class="text-peach text-left">
+                                <tr>
+                                    <th class="text-xl">See More</th>
+                                </tr>
+                                <tr>
+                                <td> 
+                                        <a class="font-light underline" href="#skills">Skills</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> 
+                                        <a class="font-light underline" href="#experiences">Project</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> 
+                                        <a class="font-light underline" href="#education">History</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="mx-auto my-auto">
+                            <table class="text-peach text-left">
+                                <tr>
+                                    <th class="text-xl">Binus University X PPTI BCA</th>
+                                </tr>
+                                <tr>
+                                <td> 
+                                        <a class="font-light" href="#skills">Web Programming</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> 
+                                        <a class="font-light" href="#experiences">Sentul, 2023</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="flex top-0 pr-2 mt-2">
+                        <hr class="w-full h-0.5 mx-auto bg-lavenderGray border-0 rounded ">
+                    </div>
+                    <div class="flex flex-row justify-between mr-[21.3vw]">
+                        <h1 class="text-lavenderGray font-thin my-auto"> All Rights Reserved</h1>
+                        <div class="flex flex-row p-1 my-auto">
+                            <a class="ml-6" href="https://www.instagram.com/nadyaclrp/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20"><path fill="#b8c1ec" d="M13 10a3 3 0 1 1-6 0c0-.171.018-.338.049-.5H6v3.997c0 .278.225.503.503.503h6.995a.503.503 0 0 0 .502-.503V9.5h-1.049c.031.162.049.329.049.5zm-3 2a2 2 0 1 0-.001-4.001A2 2 0 0 0 10 12zm2.4-4.1h1.199a.301.301 0 0 0 .301-.3V6.401a.301.301 0 0 0-.301-.301H12.4a.301.301 0 0 0-.301.301V7.6c.001.165.136.3.301.3zM10 .4A9.6 9.6 0 0 0 .4 10a9.6 9.6 0 0 0 9.6 9.6a9.6 9.6 0 0 0 9.6-9.6A9.6 9.6 0 0 0 10 .4zm5 13.489C15 14.5 14.5 15 13.889 15H6.111C5.5 15 5 14.5 5 13.889V6.111C5 5.5 5.5 5 6.111 5h7.778C14.5 5 15 5.5 15 6.111v7.778z"/></svg>
                             </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#eebbc3" d="M12 8.75a3.25 3.25 0 1 0 0 6.5a3.25 3.25 0 0 0 0-6.5Z"/><path fill="#eebbc3" fill-rule="evenodd" d="M6.77 3.082a47.472 47.472 0 0 1 10.46 0c1.899.212 3.43 1.707 3.653 3.613a45.67 45.67 0 0 1 0 10.61c-.223 1.906-1.754 3.401-3.652 3.614a47.468 47.468 0 0 1-10.461 0c-1.899-.213-3.43-1.708-3.653-3.613a45.672 45.672 0 0 1 0-10.611C3.34 4.789 4.871 3.294 6.77 3.082ZM17 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2Zm-9.75 6a4.75 4.75 0 1 1 9.5 0a4.75 4.75 0 0 1-9.5 0Z" clip-rule="evenodd"/></svg>
-                          </td>
-                          <td>nadyaclrp</td>
-                        </tr>
-                    </table>
+                            <a class="ml-6" href="https://m.facebook.com/p/100013156721192/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20"><path fill="#b8c1ec" d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4zm2.274 6.634h-1.443c-.171 0-.361.225-.361.524V8.6h1.805l-.273 1.486H10.47v4.461H8.767v-4.461H7.222V8.6h1.545v-.874c0-1.254.87-2.273 2.064-2.273h1.443v1.581z"/></svg>
+                            </a>
+                            <a class="ml-6" href="https://twitter.com/clarine_nadya?t=PEb3CRf_8eeRcLzIRChUfw&s=09">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path fill="#b8c1ec" d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448s448-200.6 448-448S759.4 64 512 64zm215.3 337.7c.3 4.7.3 9.6.3 14.4c0 146.8-111.8 315.9-316.1 315.9c-63 0-121.4-18.3-170.6-49.8c9 1 17.6 1.4 26.8 1.4c52 0 99.8-17.6 137.9-47.4c-48.8-1-89.8-33-103.8-77c17.1 2.5 32.5 2.5 50.1-2a111 111 0 0 1-88.9-109v-1.4c14.7 8.3 32 13.4 50.1 14.1a111.13 111.13 0 0 1-49.5-92.4c0-20.7 5.4-39.6 15.1-56a315.28 315.28 0 0 0 229 116.1C492 353.1 548.4 292 616.2 292c32 0 60.8 13.4 81.1 35c25.1-4.7 49.1-14.1 70.5-26.7c-8.3 25.7-25.7 47.4-48.8 61.1c22.4-2.4 44-8.6 64-17.3c-15.1 22.2-34 41.9-55.7 57.6z"/></svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
