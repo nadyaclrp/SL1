@@ -29,7 +29,7 @@
                     <div class="flex flex-row w-3/6 justify-start ml-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#232946" d="M7 9H2V7h5v2zm0 3H2v2h5v-2zm13.59 7l-3.83-3.83c-.8.52-1.74.83-2.76.83c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5c0 1.02-.31 1.96-.83 2.75L22 17.59L20.59 19zM17 11c0-1.65-1.35-3-3-3s-3 1.35-3 3s1.35 3 3 3s3-1.35 3-3zM2 19h10v-2H2v2z"/></svg>
                     </div>
-                    <div class="flex flex-row justify-evenly w-3/6">
+                    <div class="flex flex-row justify-evenly w-3/6 fix">
                         <a class="hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#biodata">Biodata</a>
                         <a class="hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#skills">Skills</a>
                         <a class="hover:bg-peach hover:rounded-lg active:bg-peach focus:outline-none focus:ring focus:ring-peach" href="#experiences">Experiences</a>
@@ -64,18 +64,21 @@
             </div>
 
             {{-- biodata --}}
-            <div id="biodata" class="flex flex-col h-screen bg-gradient-to-b from-white to-peach text-navy  pr-32 pl-32 pt-12 pb-32">
+            <div id="biodata" class="flex flex-col h-screen bg-gradient-to-b from-white to-peach text-navy  pr-32 pl-32 pt-24 pb-32 ">
                 <h1 class="font-extrabold text-5xl text-peach text-center p-4">About Me</h1>
-                <svg class="" xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 24 24"><path fill="#232946" d="m15 17l2-4h-4V6h7v7l-2 4h-3Zm-9 0l2-4H4V6h7v7l-2 4H6Z"/></svg>
-                <p class="font-medium text-center">Apa kabar teman-teman, saya adalah seorang mahasiswa IT semester 5 yang super semangat dan suka ngelucu. Sejauh ini, saya sudah melewati berbagai tantangan seperti tugas pemrograman yang menguras pikiran dan deadline yang ngeri-ngeri sedap, tapi tetap bisa melewatinya dengan selalu ngasih komentar kocak.</p>
+                <div class="flex place-content-start mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 24 24"><path fill="#232946" d="m15 17l2-4h-4V6h7v7l-2 4h-3Zm-9 0l2-4H4V6h7v7l-2 4H6Z"/></svg>
+                </div>
+                <p class="font-medium text-center">Saya adalah seorang mahasiswa IT semester 5 yang super semangat  dalam mengejar cita-citanya. Sejauh ini, saya sudah melewati berbagai tantangan seperti tugas pemrograman yang menguras pikiran dan deadline yang ngeri-ngeri sedap, tapi tetap bisa melewatinya dengan selalu ngasih komentar kocak.</p>
                 <p class="font-medium text-center mt-2">
-                    Saya sangat suka belajar tentang hal-hal baru di bidang IT, mulai dari programming, networking, cybersecurity, hingga data science. Bahkan ketika saya sedang jenuh dengan tugas kuliah, saya masih bisa terhibur dengan video-video IT yang kocak di YouTube.
-                    Saya juga suka bergabung dengan organisasi dan komunitas baru di kampus. Sejak bergabung dengan komunitas programming, saya mendapat banyak peluang untuk mengasah keterampilan saya dan mendapat teman-teman baru yang seru. Tidak jarang kami juga membuat projek atau berpartisipasi dalam tugas coding bersama-sama.
-                    Dan ketika saya mengikuti acara organisasi, saya selalu mencoba untuk memberikan sedikit keceriaan dengan selalu menambahkan komentar lucu di sela-sela diskusi. Walaupun saya memang suka bergurau, tapi saya tetap serius dalam mengikuti diskusi dan acara, karena saya percaya hal ini sangat penting untuk menambah wawasan dan jaringan saya di bidang IT.
+                    Saya sangat suka belajar tentang hal-hal baru di bidang IT, mulai dari programming, networking, cybersecurity, hingga data science. juga suka baca buku, nonton film atau serial, dengerin musik, dan main basket. 
+                    Di sela-sela kuliah, aku seringkali mengikuti kegiatan organisasi dan komunitas yang ada di kampus. 
                 </p>
                 <p class="font-medium text-center mt-2"> Jadi, itulah sedikit deskripsi tentang diri saya sebagai mahasiswa IT semester 5 yang penuh semangat, lucu dan senang bergabung dengan organisasi dan komunitas baru di kampus. Saya selalu mencoba untuk menikmati setiap momen di kampus dan terus belajar untuk mengasah keterampilan dan pengetahuan saya di bidang IT.</p>
                 <p class="font-semibold text-xl text-center mt-4">Terima kasih sudah membaca!</p>
-                <svg class="mx-[78vw]" xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 24 24"><path fill="#232946" d="m15 17l2-4h-4V6h7v7l-2 4h-3Zm-9 0l2-4H4V6h7v7l-2 4H6Z"/></svg>
+                <div class="flex place-content-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 24 24"><path fill="#232946" d="m15 17l2-4h-4V6h7v7l-2 4h-3Zm-9 0l2-4H4V6h7v7l-2 4H6Z"/></svg>
+                </div>
             </div>
 
             {{-- skills --}}
@@ -128,7 +131,7 @@
                 <h1 class="font-extrabold text-5xl text-navy text-center p-16">Collab Project</h1>
                 <div class="flex flex-row justify-center mb-8 mt-8">
                     <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
-                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('https://img.freepik.com/free-photo/closeup-hand-using-pen-mouse-working-with-computer-wooden-table_53876-30173.jpg?w=740&t=st=1680240005~exp=1680240605~hmac=6c562b49ed56abb6c5a4b6648cbd02cde3c4562b432f34f1aef1f9b5f8575183')" ></div>
+                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('Fugemy.png')" ></div>
                         <div class="mt-4 text-white hover:text-peach">
                             <h1 class="font-thin text-xs">Application</h1>
                             <h1 class="font-semibold">Fugemy</h1>
@@ -137,7 +140,7 @@
                         </div>
                     </div>
                     <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
-                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('https://img.freepik.com/free-photo/woman-scanning-qr-code-pay-bills_329181-4280.jpg?w=900&t=st=1680247470~exp=1680248070~hmac=6b56cb45769b2214f3d701cc71cfdcf51df2a0223ce6057e0ec279622d7b7b25')" ></div>
+                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('Foundly.png')" ></div>
                         <div class="mt-4 text-white hover:text-peach">
                             <h1 class="font-thin text-xs">Application</h1>
                             <h1 class="font-semibold">Foundly</h1>
@@ -146,7 +149,7 @@
                         </div>
                     </div>
                     <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
-                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('https://img.freepik.com/free-photo/top-view-office-desk-with-growth-chart-hands-using-calculator_23-2148780626.jpg?w=900&t=st=1680247876~exp=1680248476~hmac=db492b7f36058f774ae8e3f00e97f23aaaf75d2348f25071f05352098b9827c8')" ></div>
+                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('PoorBye.png')" ></div>
                         <div class="mt-4 text-white hover:text-peach">
                             <h1 class="font-thin text-xs">Application</h1>
                             <h1 class="font-semibold">PoorBye</h1>
@@ -155,10 +158,10 @@
                         </div>
                     </div>
                     <div class="flex-col bg-navy rounded-xl w-auto h-auto pr-5 pl-5 pb-4 pt-4 mr-8 ml-8 flex ">
-                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('https://img.freepik.com/premium-photo/nurse-holding-virtual-screen_13339-70952.jpg?w=826')" ></div>
+                        <div class="bg-white w-56 h-36 rounded-lg opacity-1 bg-contain mix-blend-hard-light" style="background-image: url('heartPrediction.png')" ></div>
                         <div class="mt-4 text-white hover:text-peach">
                             <h1 class="font-thin text-xs">Application</h1>
-                            <h1 class="font-semibold">Heart Prediction</h1>
+                            <h1 class="font-semibold">Prediction Heart Disease</h1>
                             <h1 class="font-thin text-xs mt-3">Description</h1>
                             <h1 class="font-semibold">Machine Learning</h1>
                         </div>
@@ -301,11 +304,14 @@
                 </div>
             </div>
 
+            {{-- <div class="h-1 bg-[#B8B8B8]"></div> --}}
+
             {{-- reach --}}
             <div id="reach" class="h-fit bg-navy flex flex-row pt-1 pb-1" >
+                {{-- <div class="flex flex-row m-8 p-1 w-1/6 h-fit my-auto -bottom-0 bg-peach" style="background-image: url('senyum.jpg')" ></div> --}}
                 <div class="flex flex-row m-8 p-1 w-1/6 h-fit my-auto -bottom-0 bg-peach">
                     <img class=" w-28 h-28 rounded-l" src="{{('senyum.jpg')}}">
-                    <img class=" ml-1 w-28 h-28 rounded-l" src="{{('senyum.jpg')}}">
+                    <img class=" w-28 h-28 rounded-l" src="{{('senyum.jpg')}}">
                 </div>
                 <div class="flex flex-col w-5/6">
                     <div class="flex flex-row">
@@ -375,12 +381,12 @@
                                 </tr>
                                 <tr>
                                 <td> 
-                                        <a class="font-light" href="#skills">Web Programming</a>
+                                        <h1 class="font-light">Web Programming</h1>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td> 
-                                        <a class="font-light" href="#experiences">Sentul, 2023</a>
+                                        <h1 class="font-light" >Sentul, 2023</h1>
                                     </td>
                                 </tr>
                             </table>
@@ -389,7 +395,7 @@
                     <div class="flex top-0 pr-2 mt-2">
                         <hr class="w-full h-0.5 mx-auto bg-lavenderGray border-0 rounded ">
                     </div>
-                    <div class="flex flex-row justify-between mr-[21.3vw]">
+                    <div class="flex flex-row justify-between mr-[19.3vw]">
                         <h1 class="text-lavenderGray font-thin my-auto"> All Rights Reserved</h1>
                         <div class="flex flex-row p-1 my-auto">
                             <a class="ml-6" href="https://www.instagram.com/nadyaclrp/">
